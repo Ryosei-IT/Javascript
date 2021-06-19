@@ -1,0 +1,94 @@
+h1{
+    color: #000000;
+    font-size: 50px;
+}
+
+
+div{
+    color: #666666;
+} 
+
+    .box1-2{
+        position: relative;
+        bottom: 80px;
+        left: 22px;
+    }
+
+    .box3-4{
+        position: relative;
+        bottom: 75px;
+        left: 22px;
+    }
+
+    .text1{
+        font-size: 50px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .text2{
+        font-size: 50px;
+        position: relative;
+        bottom: 140px;
+        left: 140px;
+    }
+
+    .text3{
+        font-size: 20px;
+        position: relative;
+        bottom: 210px;
+        left: 165px;
+    }
+    
+    .text4{
+        font-size: 50px;
+        position: relative;
+        bottom: 270px;
+        left: 200px;
+    }
+
+    .text5{
+        font-size: 50px;
+        position: relative;
+        bottom: 350px;
+        left: 245px;
+    }
+
+    .box5{
+        position: relative;
+        bottom: 410px;
+        left: 262px;
+    }
+    
+    .box6{
+        position: relative;
+        bottom: 405px;
+        left: 262px;
+    }
+
+    .text6{
+        font-size: 50px;
+        position: relative;
+        bottom: 470px;
+        left: 335px;
+    }
+
+    .text7{
+        font-size: 20px;
+        position: relative;
+        bottom: 520px;
+        left: 350px;
+    }
+
+    .box7{
+        position: relative;
+        bottom: 547px;
+        left: 400px;
+    }
+
+    .button{
+        position: relative;
+        bottom: 535px;
+        left: 380px;
+    }
+

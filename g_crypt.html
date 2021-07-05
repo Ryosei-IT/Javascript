@@ -1,0 +1,82 @@
+<html>
+  <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style2.css">
+  <title>いろいろやるページ</title>
+
+  <script src="JS/g_crypt2.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1 style="text-align:center">いろいろ練習するためのサイト</h1>
+
+      <br><h2>～行列を使って暗号化・復号化をするやつ～</h2>
+
+      <p>
+        <div class="text">・暗号化します</div>
+        <div class="text0">↓modと互いに素になる暗号化鍵を入力　　↓95でmodを入力(今のところ変更不可)</div>
+        <div class="text1">(　　)</div>
+        <div class="box1-2"><input type="text" id="number1" size="5"><input type="text" id="number2" size="5"></div>
+        <div class="box3-4"><input type="text" id="number3" size="5"><input type="text" id="number4" size="5"></div>
+
+        <div class="box5"><input type="text" id="number5" size="4" style = "width: 100px; height: 30;"></div>
+      
+        <div class="text2">↓暗号化する文字列(6文字以下の半角英数字等)を入力してください</div>
+        <div class="box6"><input type="text" id="number6" size="4" style = "width: 100px; height: 30;"></div>
+
+      </p>
+
+      <div class="button"><input type="button" id="button" value="暗号化スタート" onclick="g_crypt(1)"></div><br>
+
+
+
+
+
+      <!--ここで縦と横のサイトのボーダーを作る-->
+      <div class="border1"></div>
+      <div class="border2"></div>
+
+      <div class="plint1"id="output1"></div>
+
+    </div>
+
+    <!--テーブルの枠-->
+    <div class = "tb1"></div>
+    
+
+
+
+<!-- ここから復号化 -->
+
+
+
+
+      <p>
+        <div class="text3">・復号化します</div>
+        <div class="text4">↓modと互いに素になる暗号化鍵を入力　　↓95でmodを入力(今のところ変更不可)</div>
+        <div class="text5">(　　)</div>
+        <div class="box7-8"><input type="text" id="number7" size="5"><input type="text" id="number8" size="5"></div>
+        <div class="box9-10"><input type="text" id="number9" size="5"><input type="text" id="number10" size="5"></div>
+
+        <div class="box11"><input type="text" id="number11" size="4" style = "width: 100px; height: 30;"></div>
+      
+        <div class="text6">↓復号化する文字列(6文字以下の半角英数字等)を入力してください</div>
+        <div class="box12"><input type="text" id="number12" size="4" style = "width: 100px; height: 30;"></div>
+
+      </p>
+
+      <div class="button2"><input type="button" id="button" value="復号化スタート" onclick="g_crypt(2)"></div><br>
+
+
+
+      <div class="plint2"id="output2"></div>
+
+    </div>
+
+    <!--テーブルの枠-->
+    <div class = "tb2"></div>
+
+
+  </body>
+</html>

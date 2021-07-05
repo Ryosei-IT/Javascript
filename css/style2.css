@@ -1,0 +1,244 @@
+#container{
+    max-width:1000px;
+    height:1300px;
+    padding:0px 20px;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(255, 194, 194), rgb(197, 208, 255));
+}
+
+
+.border1{
+    margin-left:650px;
+    width: 5px;
+    height: 1000px;
+    position: relative;
+    bottom: 370px;
+    background-color: rgb(49, 49, 49);
+}
+
+.border2{
+    margin-left:680px;
+    width: 270px;
+    height: 5px;
+    position: relative;
+    bottom: 1070px;
+    background-color: rgb(49, 49, 49);
+}
+
+
+
+.tb1{
+    z-index:0;
+    width: 650px;
+    height: 350px;
+    position: relative;
+    bottom: 1100px;
+    border-top: 15px solid #382b2b;
+    border-bottom: 2px solid #382b2b;
+    border-left: 2px solid #382b2b;
+    border-right: 2px solid #382b2b;
+}
+
+
+
+h1{
+    color: #000000;
+    font-size: 50px;
+    background-color: #a5a5a5;
+}
+
+
+
+h2{
+    color: #202020;
+    font-size: 30px;
+}
+
+
+
+
+div{
+    color: #202020;
+}
+.box1-2{
+    z-index:1;
+    position: relative;
+    bottom: 60px;
+    left: 37px;
+}
+
+.box3-4{
+    z-index:1;
+    position: relative;
+    bottom: 54px;
+    left: 37px;
+}
+
+.box5{
+    z-index:1;
+    position: relative;
+    bottom: 95px;
+    left: 330px;
+}
+
+.box6{
+    z-index:1;
+    position: relative;
+    bottom: 40px;
+    left: 150px;
+}
+
+
+
+.text{
+    z-index:1;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    font-size: 25px;
+}
+
+.text0{
+    z-index:1;
+    position: relative;
+    bottom: 0px;
+    left: 5px;
+}
+
+.text1{
+    z-index:1;
+    font-size: 50px;
+    position: relative;
+    bottom: 0px;
+    left: 20px;
+}
+
+.text2{
+    z-index:1;
+    position: relative;
+    bottom: 50px;
+    left: 0px;
+}
+
+
+
+
+
+.button{
+    z-index:1;
+    position: relative;
+    bottom: 50px;
+    left: 520px;
+}
+
+.plint1{
+    z-index:1;
+    color: rgb(189, 67, 67);
+    font-size: 35px;
+    position: relative;
+    bottom: 1050px;
+    left: 90px;
+}
+
+
+
+
+/* ここから復号化 */
+.tb2{
+    z-index:0;
+    width: 650px;
+    height: 350px;
+    position: absolute;
+    bottom: 0px;
+    top: 670px;
+    border-top: 15px solid #382b2b;
+    border-bottom: 2px solid #382b2b;
+    border-left: 2px solid #382b2b;
+    border-right: 2px solid #382b2b;
+}
+
+div{
+    color: #202020;
+}
+.box7-8{
+    z-index:1;
+    position: relative;
+    bottom: 1050px;
+    left: 57px;
+}
+
+.box9-10{
+    z-index:1;
+    position: relative;
+    bottom: 1045px;
+    left: 57px;
+}
+
+.box11{
+    z-index:1;
+    position: relative;
+    bottom: 1085px;
+    left: 350px;
+}
+
+.box12{
+    z-index:1;
+    position: relative;
+    bottom: 1030px;
+    left: 170px;
+}
+
+
+
+.text3{
+    z-index:1;
+    position: relative;
+    bottom: 990px;
+    left: 20px;
+    font-size: 25px;
+}
+
+.text4{
+    z-index:1;
+    position: relative;
+    bottom: 990px;
+    left: 25px;
+}
+
+.text5{
+    z-index:1;
+    font-size: 50px;
+    position: relative;
+    bottom: 990px;
+    left: 40px;
+}
+
+.text6{
+    z-index:1;
+    position: relative;
+    bottom: 1040px;
+    left: 20px;
+}
+
+
+
+
+
+.button2{
+    z-index:1;
+    position: relative;
+    bottom: 1040px;
+    left: 540px;
+}
+
+.plint2{
+    z-index:2;
+    color: rgb(189, 67, 67);
+    font-size: 35px;
+    position: relative;
+    bottom: 1040px;
+    left: 90px;
+}
+

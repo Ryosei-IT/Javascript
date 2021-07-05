@@ -1,0 +1,169 @@
+#container{
+    max-width:1000px;
+    height:1300px;
+    padding:0px 20px;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(255, 194, 194), rgb(197, 208, 255));
+}
+
+
+.border1{
+    margin-left:650px;
+    width: 5px;
+    height: 1000px;
+    position: relative;
+    bottom: 1000px;
+    background-color: rgb(49, 49, 49);
+}
+
+.border2{
+    margin-left:680px;
+    width: 270px;
+    height: 5px;
+    position: relative;
+    bottom: 1700px;
+    background-color: rgb(49, 49, 49);
+}
+
+
+
+
+
+
+
+h1{
+    color: #000000;
+    font-size: 50px;
+    background-color: #a5a5a5;
+}
+
+
+
+h2{
+    color: #202020;
+    font-size: 30px;
+}
+
+
+div{
+    color: #202020;
+}
+    .box1-2{
+        z-index:1;
+        position: relative;
+        bottom: 80px;
+        left: 17px;
+    }
+
+    .box3-4{
+        z-index:1;
+        position: relative;
+        bottom: 75px;
+        left: 17px;
+    }
+
+    .text1{
+        font-size: 50px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .text2{
+        font-size: 50px;
+        position: relative;
+        bottom: 137px;
+        left: 140px;
+    }
+
+    .text3{
+        font-size: 20px;
+        position: relative;
+        bottom: 205px;
+        left: 165px;
+    }
+    
+    .text4{
+        font-size: 50px;
+        position: relative;
+        bottom: 272px;
+        left: 200px;
+    }
+
+    .text5{
+        font-size: 50px;
+        position: relative;
+        bottom: 347px;
+        left: 245px;
+    }
+
+    .box5{
+        z-index:1;
+        position: relative;
+        bottom: 407px;
+        left: 262px;
+    }
+    
+    .box6{
+        z-index:1;
+        position: relative;
+        bottom: 402px;
+        left: 262px;
+    }
+
+    .text6{
+        font-size: 50px;
+        position: relative;
+        bottom: 464px;
+        left: 335px;
+    }
+
+    .text7{
+        font-size: 20px;
+        position: relative;
+        bottom: 517px;
+        left: 350px;
+    }
+
+    .box7{
+        z-index:1;
+        position: relative;
+        bottom: 542px;
+        left: 400px;
+    }
+
+    .button{
+        z-index:1;
+        position: relative;
+        bottom: 520px;
+        left: 380px;
+    }
+
+    .plint{
+        color: rgb(189, 67, 67);
+        font-size: 35px;
+        position: relative;
+        bottom: 1750px;
+        left: 120px;
+    }
+
+    .move1{
+        position: relative;
+        bottom: 680px;
+        left: 1px;
+    }
+
+.tbl{
+    z-index:0;
+    width: 630px;
+    height: 300px;
+    border-top: 15px solid #382b2b;
+    border-bottom: 2px solid #382b2b;
+    border-left: 2px solid #382b2b;
+    border-right: 2px solid #382b2b;
+  }
+
+
+
+

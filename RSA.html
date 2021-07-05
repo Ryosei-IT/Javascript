@@ -1,0 +1,124 @@
+<html>
+  <head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style3.css">
+  <title>いろいろやるページ</title>
+
+  <script src="JS/cryptico-master/cryptico1.js"></script>
+
+  </head>
+
+  <body>
+    <div id="container">
+      <h1 style="text-align:center">いろいろ練習するためのサイト</h1>
+
+
+      <br><h2>～crypticoを使ってRSA暗号やるやつ～</h2>
+      <div class="text"><b>・受信者（※は復号時すべて入力必須）</b></div>
+      <p>
+
+        
+        <div class="text0">↓(※)パスフレーズを設定して下さい。</div>
+        <div class="box1"><input type="text" id="number1" style = "width: 400px; height: 30;"></div><br>
+
+        <div class="text1">↓(※)暗号化ビット数を選択してください。(未選択は1024bitで計算されます。)</div>
+        <div class="radio"><form id="radio">
+          <input name="bit" type="radio" value="512"> 512
+          <input name="bit" type="radio" value="1024"> 1024
+          <input name="bit" type="radio" value="2048"> 2048
+          <input name="bit" type="radio" value="4096"> 4096
+          <input name="bit" type="radio" value="8192"> 8192
+        </form></div><br>
+
+        <div class="button1"><input type="button" id="button1" value="1.鍵ペアの作成" onclick="start(1)"></div><br>
+
+
+        <div class="text2">↓公開鍵が出力されます。(数十分時間がかかる場合があります。)</div>
+        <div><form name"output0"><textarea name=”output0” class="output0" wrap=”soft” id="output0"></textarea></form></div>
+
+      </p>
+
+      <div class = "move4">
+        <table class="tbl3">
+          <tr></tr>
+        </table><br>
+
+  
+        <div class="text3">↓(※)暗号文を入力。</div>
+        <div><form name"output1"><textarea name=”output1” class="output1" wrap=”soft” id="output1"></textarea></form></div>
+
+        
+        <div class="button3"><input type="button" id="button3" value="3.復号化スタート" onclick="start(3)"></div><br>
+
+        <div class="textplus">↓元の平文が出力されます。(数十分時間がかかる場合があります。)</div>
+        <div><form name"output2"><textarea name=”output2” class="output2" wrap=”soft” id="output2"></textarea></form></div>
+
+        
+      </div>
+
+      <div class = "move1">
+        <table class="tbl1">
+        <tr></tr>
+        </table>
+      </div>
+
+
+
+
+
+      <div class = "move3">
+
+        <div class="text4"><b>・送信者</b></div>
+        <p>
+
+          
+          <div class="text5">↓公開鍵を入力してください。</div>
+          <div><form name"output3"><textarea name=”output3” class="output3" wrap=”soft” id="output3"></textarea></form></div>
+
+          <div class="text6">↓平文を入力してください。(英数字のみ)</div>
+          <div><form name"output4"><textarea name=”output4” class="output4" wrap=”soft” id="output4"></textarea></form></div>
+
+        </p>
+
+        <div class="button2"><input type="button" id="button2" value="2.暗号化スタート" onclick="start(2)"></div><br>
+
+        <div class="text8">↓暗号化文字列が出力されます。</div>
+        <div><form name"output5"><textarea name=”output5” class="output5" wrap=”soft” id="output5"></textarea></form></div>
+
+
+        <div class = "move2">
+          <table class="tbl2">
+          <tr></tr>
+          </table>
+        </div>
+        
+
+
+      </div>
+
+
+      <!--ここで縦と横のサイトのボーダーを作る-->
+      <div class="border1"></div>
+      <div class="border2"></div>
+
+      <!-- ここからサイドバーを作成する -->
+      <div class = "move5">
+        <img src="picture/prof.png" class ="prof" alt="プロフィール写真" title="プロフ">
+        <div class="SideText1">　　　　　<font size="4"><b>Rysoei</b><br><br></font>
+          <font size="2">好きなもの：カメラ・PC・音楽<br>　　　　　　　　　ガジェット etc...</font>
+          <br><br><br><br>
+        </div>
+
+        <div class="SideText2"><font size="2"><b>外部サイトリンク</b><br>
+          <p>・テスト用<br>
+            　<a href="https://www.google.com" target="_blank">Google検索のトップを別タブで開きます。</a><br>
+        </font></div>
+
+      </div>
+
+    </div>
+    
+
+
+  </body>
+</html>

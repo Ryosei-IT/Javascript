@@ -12,10 +12,10 @@
         <a href="RSA.html" target="_blank">一番最後に作ったページです。別タブで開きます。</a><br></p>
     
       <p>・行列を使った暗号をやるページ<br>
-      <a href="g_crypt1.html" target="_blank">一番最初に作ったページです。別タブで開きます。</a><br></p>
+      <a href="g_crypt.html" target="_blank">一番最初に作ったページです。別タブで開きます。</a><br></p>
     
       <p>・連立合同方程式をやるページ<br>
-      <a href="rennritu.html" target="_blank">一番最初に作ったページです。別タブで開きます。</a><br></p>
+      <a href="renritu.html" target="_blank">一番最初に作ったページです。別タブで開きます。</a><br></p>
     
     
     
